@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+
+.icon {
+    position: absolute;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header {
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(172, 248, 223);
+    border-radius: 10px;
+}
+
+.header>div {
+    border: transparent;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(172, 248, 223);
+    border-radius: 10px;
+}
+
+.animated_rainbow_1 {
+    font-size: 30px;
+    font-family: Arial Black, Gadget, sans-serif;
+    background-image: -webkit-linear-gradient(left, #f00, #ff2b00, #f50, #ff8000, #fa0, #ffd500, #ff0, #d4ff00, #af0, #80ff00, #5f0, #2bff00, #0f0, #00ff2a, #0f5, #00ff80, #0fa, #00ffd5, #0ff, #00d5ff, #0af, #0080ff, #05f, #002aff, #00f, #2b00ff, #50f, #8000ff, #a0f, #d400ff, #f0f, #ff00d4, #f0a, #ff0080, #f05, #ff002b, #f00);
+    -webkit-animation: animatedBackground_a 5s linear infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0000;
+    background-clip: text;
+}
+
+@keyframes animatedBackground_a {
+    0% {
+        background-position: 0 0
+    }
+
+    100% {
+        background-position: -500px 0
+    }
+}
+
+.box {
+    width: 100%;
+    background-color: rgb(172, 248, 223);
+    border-radius: 10px;
+}
+
+.box2 {
+    width: 30%;
+    height: 40%;
+    border: transparent;
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: darkslategrey;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: auto;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+#menu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(24, 192, 136);
+    border-radius: 15px;
+}
