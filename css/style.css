@@ -113,11 +113,27 @@
     border-radius: 10px;
 }
 
+.box1{
+    margin: 0 auto;
+    margin-bottom: 5%;
+    width: 50%;
+    height: 40%;
+    border: transparent;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+
+}
+
 .box2 {
-    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    width: 200px;
     height: 40%;
     border: transparent;
     background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
 }
 
 body {
