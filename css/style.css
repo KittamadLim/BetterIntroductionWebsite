@@ -18,10 +18,10 @@
   }
   
   .header {
-    background-color: rgb(172, 248, 223);
-    color: #ffffff;
+    background-color: #E78895;
     padding: 15px;
     border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   }
   
   .menu ul {
@@ -31,15 +31,17 @@
   }
   
   .menu li {
-    padding: 8px;
+    padding: 12px 20px; /* Increase padding for a bigger border edge */
     margin-bottom: 7px;
-    background-color: #33b5e5;
+    background-color: #BED1CF;
     color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3); /* Adjust box-shadow for a pop-up effect */
+    transition: box-shadow 0.3s ease; /* Add transition for smooth hover effect */
   }
   
   .menu li:hover {
-    background-color: #0099cc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
   }
   
   .aside {
@@ -52,11 +54,13 @@
   }
   
   .footer {
-    background-color: #0099cc;
+    background-color: #E78895;
     color: #ffffff;
     text-align: center;
     font-size: 12px;
     padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   }
   
   /* For mobile phones: */
@@ -97,9 +101,13 @@
 
 
 .box {
-    width: 100%;
-    background-color: rgb(172, 248, 223);
+    margin-top: 1%;
+    background-color: #ffcf9f;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .box1 {
@@ -126,7 +134,7 @@
 }
 
 body {
-    background-color: darkslategrey;
+  background-color: #ffe3cd;
 }
 
 .animated_rainbow_1 {
